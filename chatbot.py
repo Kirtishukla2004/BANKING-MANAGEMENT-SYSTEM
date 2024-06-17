@@ -6,6 +6,8 @@ import random
 # Define a dictionary of rules and responses
 rules = {
     "hello": ["Namaste!", "Hello!", "Hey!"],
+    "hi": ["hi", "Hello!", "Hey!"],
+    "jai jai shree ram": ["jai shree ram!", "ram ram!", "Hare ram!"],
     "how are you": ["I'm doing well, thanks!", "I'm just a bot, so I don't have feelings, but I'm here to help!"],
     "what's your name": ["I'm a chatbot.", "I don't have a name, but you can call me ChatBot."],
     "bye": ["Goodbye!", "See you later!", "Have a great day!"],

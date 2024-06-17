@@ -993,4 +993,3 @@ def login_user():
     forget_btn = Button(login_window, text="FORGET PASSWORD", bg="SystemButtonFace", bd=0, font=("Arial", 16),command=forgot_password)
     forget_btn.grid(row=4, padx=800, sticky="w")
     login_window.mainloop()
-expense_predictor()
