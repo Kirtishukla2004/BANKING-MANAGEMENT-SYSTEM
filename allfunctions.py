@@ -48,6 +48,8 @@ def insert_data(name, phone, email, gender, nationality, state, address, passwor
             print(f"Error inserting data: {e}")
         finally:
             connection.close()
+    else:
+        print("connection not found ")
 
 def fetch_user_data(username):
     try:
